@@ -1,2 +1,1 @@
-# CartaUNNE
-CartaUNNE
+Prototipo de AR para UNNE

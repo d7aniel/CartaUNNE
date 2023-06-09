@@ -140,7 +140,7 @@ async function setupObjects(longitude, latitude) {
   modeloBase = new THREE.Object3D();
   await cargarModelo("modelo/HartxCarta 2.glb", modeloBase).then((resultado) => {});
   console.log(longitude, latitude);
-  threex.add(modeloBase, longitude, latitude + 0.001, 5);
+  threex.add(modeloBase,  -58.982355, -27.468529, 5);
 }
 
 function iluminarConFoto(archivo) {
